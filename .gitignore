@@ -1,0 +1,12 @@
+#Makefiles
+Makefile
+Makefile.in
+src/Makefile
+src/Makefile.in
+config.*
+install-sh
+
+
+Executables
+*.a
+*.o
