@@ -8,9 +8,9 @@
 #define __MYFORM_H__
 
 // GTKMM Stuff
-#include <gtkmm.h>
+#include <gtkmm/window.h>
 
-class MyForm : public Gtk::Window {
+class MyForm /*: public Gtk::Window*/ {
 public:
     MyForm();
     MyForm(const MyForm& orig);

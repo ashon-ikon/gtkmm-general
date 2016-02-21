@@ -23,3 +23,7 @@ AC_CONFIG_FILES([
     src/Makefile
 ])
 AC_OUTPUT
+echo ""
+echo ""
+echo ""
+echo "----- Done!"
