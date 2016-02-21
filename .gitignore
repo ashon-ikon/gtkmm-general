@@ -10,3 +10,10 @@ install-sh
 Executables
 *.a
 *.o
+
+autom4te.cache
+
+aclocal.m4
+configure
+depcomp
+missing
