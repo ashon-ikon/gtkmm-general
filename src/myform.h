@@ -9,14 +9,18 @@
 
 // GTKMM Stuff
 #include <gtkmm/window.h>
+#include <gtkmm/object.h>
+#include <gtkmm/builder.h>
+#include <glibmm/refptr.h>
 
-class MyForm /*: public Gtk::Window*/ {
+class MyForm : public Gtk::Window {
 public:
     MyForm();
+    MyForm(BaseObjectType * cobject, const Glib::RefPtr<Gtk::Builder>& refBuilder);
     MyForm(const MyForm& orig);
     virtual ~MyForm();
 protected:
-
+    Glib::RefPtr<Gtk::Builder> m_refBuilder;
 
 };
 

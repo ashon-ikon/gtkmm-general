@@ -10,10 +10,16 @@ install-sh
 Executables
 *.a
 *.o
+*.deps*
+bin/*
 
 autom4te.cache
+nbproject*
+stamp-h1
+makelog
 
 aclocal.m4
 configure
 depcomp
 missing
+/src/.deps/
